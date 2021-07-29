@@ -111,3 +111,27 @@ nav{
     cursor: pointer;
    
 }
+
+.heading-2{
+    color: #012d2d;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+}
+
+.plan-item img{
+    width: 100%;
+    padding: 1rem;
+    
+}
+.plan-item {
+    padding: .5rem;
+}
+.plan-item .lead {
+    font-size: 18px;
+    color: #012d2d;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0 .5rem;
+}
