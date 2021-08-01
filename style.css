@@ -9,13 +9,17 @@
     --color-secondary: #012d2d;
 }
 
+
+
+a img{
+    height: 100%;
+    width: 100%;
+}
 .navbar-brand{
     height: 100px;
 }
 
-.navbar-brand img {
-    height: 100%;
-}
+
 
 .nav-link{
     
@@ -56,7 +60,7 @@ nav{
     background: #fff;
 }
 
-/* ----Home----- */
+/* ----section Home----- */
 
 #home{
     background: url(./img/Links/back.jpg) no-repeat;
@@ -127,7 +131,10 @@ nav{
 .plan-item img{
     width: 100%;
     padding: 1rem;
-    
+    transition: all .4s linear;
+}
+.plan-item img:hover{
+    transform: scale(.95);
 }
 .plan-item {
     padding: .5rem;
@@ -154,6 +161,10 @@ nav{
     width: 100%;
     height: 100%;
     padding: 0 1rem;
+    transition: all .4s linear;
+}
+.box-item-2-pic img:hover{
+    transform: scale(.95);
 }
 
 .box-item-2 hr {
@@ -171,4 +182,14 @@ nav{
     padding: 0 .5rem;
     margin-top: 1rem;
 }
+#rewarded{
+    position: relative;
+    height: 50vh;
+   
+}
 
+.rewarded-content,
+.reward-item,
+.rewarded-content-1{
+    background: #4080804c;
+}
